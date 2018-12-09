@@ -4,7 +4,7 @@ Hey There! I am Pradyuman Dixit.<!-- laglaglaglaglaglaglaglaglaglaglaglag --><p>
 
 <p>I love to code, and play football, and maybe singing too.</p><!-- owlsqweoifjqwoefijqwoeifjqwoefijwef -->
 
-<p>One thing you may notice about me is that I am always coding. I love to develop apps, games, web-apps and also like solving competitive coding problems. <br><br><br>Currently working my way up in ProjectEuler+ on HackerRank, <br> Working on a social media android app, <br> Text to Speech recognition with JavaScript, <br>Multiplayer browser game and <br>Some other secret interesting stuff</p>
+<p>One thing you may notice about me is that I am always coding. I love to develop apps, games, web-apps and also like solving competitive coding problems. <br><br><br>Currently working my way up in ProjectEuler+ on HackerRank, <br> Working on a social media android app, <br> Text to Speech recognition with JavaScript and TensorFlow, <br>Multiplayer browser game and <br>Some other secret interesting stuff</p>
 
 <p> I have worked in Android Development, Machine Learning, Web Development and Game Development until now, and I'm working on other new things. You can learn more about me on my porfolio <a href="https://pradyumandixit.wixsite.com/about-me">pradyumandixit.com</a>.</p>
 <!- oqwipjefqwioefjwioqfjoiqwjfeioqwjefoi -->
