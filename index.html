@@ -58,30 +58,6 @@
 		return false;
 	},
  
-	makeAccess:function(){
-		Typer.hidepop(); 
-		Typer.accessCount=0; 
-		var ddiv=$("<div id='gran'>").html(""); 
-		ddiv.addClass("accessGranted"); 
-		ddiv.html("<h1>ACCESS GRANTED</h1>");
-		$(document.body).prepend(ddiv); 
-		return false;
-	},
-	makeDenied:function(){
-		Typer.hidepop(); 
-		Typer.deniedCount=0; 
-		var ddiv=$("<div id='deni'>").html(""); 
-		ddiv.addClass("accessDenied");
-		ddiv.html("<h1>ACCESS DENIED</h1>");
-		$(document.body).prepend(ddiv);
-		return false;
-	},
- 
-	hidepop:function(){
-		$("#deni").remove();
-		$("#gran").remove();
-	},
- 
 	addText:function(key){
 		if(key.keyCode==18){
 			Typer.accessCount++; 
