@@ -1,6 +1,8 @@
 <span id="a">pradyuman@dixit</span>:<span id="b">~</span><span id="c">$</span> cd Pradyuman/<!-- kjsdfhkjdhsfkjdshfkj -->About_Pradyuman
 <span id="a">pradyuman@dixit</span>:<span id="b">~</span><span id="c">$</span> cat <!-- kjsdfhkjdhsfkjdshfkj -->pradyuman.txt<br/><br/>
 
+How I define myself: <span id="k">Code for Everyone</span>
+
 Hey There! I am Pradyuman Dixit.<!-- laglaglaglaglaglaglaglaglaglaglaglag --><p>I am currently pursuing my Bachelor's in Computer Science and Engineering from Delft University of Technology (TU Delft).</p>
 <p>I love to code, and play football, and maybe singing too.</p> <!-- ksjdokhdfgdufdfkjhfkjahdfkjhafkjhakf -->
 <p> I have worked in fields like Android Development, Machine Learning, Web Development and Game Development until now, and I'm working on other new things. You can learn more about me on my portfolio <a href="https://pradyumandixit.wixsite.com/about-me">pradyumandixit.com</a>.</p><!-- kjdhjhgdgldjhgdwtoiewotwotjdfkjdfffsf -->
