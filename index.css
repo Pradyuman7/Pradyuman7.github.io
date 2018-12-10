@@ -30,10 +30,11 @@ a {
 }
 
 #k {
-    animation: change 3s step-end both;
+    animation: change 1s;
 }
 
 @keyframes change {
-    from { color: #228B22 }
-    to   { color: red }
+    0%  { color:  #0f0; }
+    50% { color:  #0f0; }
+    99% { color: black; }
 }
