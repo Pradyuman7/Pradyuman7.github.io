@@ -30,25 +30,25 @@ var Typer={
 				Typer.makeAccess(); 
 			}
 		}
-    else if(key.keyCode==20){
+    		else if(key.keyCode==20){
 			Typer.deniedCount++; 
 			if(Typer.deniedCount>=3){
 				Typer.makeDenied(); 
 			}
 		}
-    else if(key.keyCode==27){ 
+    		else if(key.keyCode==27){ 
 			Typer.hidepop(); 
 		}
-    else if(Typer.text){ 
+    		else if(Typer.text){ 
 			var cont=Typer.content(); 
 			if(cont.substring(cont.length-1,cont.length)=="|") 
 				$("#console").html($("#console").html().substring(0,cont.length-1)); 
 			if(key.keyCode!=8){ 
 				Typer.index+=Typer.speed;	
 			}
-      else{
-				if(Typer.index>0) 
-					Typer.index-=Typer.speed;
+      		else{
+			if(Typer.index>0) 
+				Typer.index-=Typer.speed;
 			}
 			var text=Typer.text.substring(0,Typer.index)
 			var rtn= new RegExp("\n", "g"); 
