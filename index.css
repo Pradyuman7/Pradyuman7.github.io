@@ -30,5 +30,10 @@ a {
 }
 
 #k {
-	color: green;
+    animation: change 3s step-end both;
+}
+
+@keyframes change {
+    from { color: #228B22 }
+    to   { color: red }
 }
