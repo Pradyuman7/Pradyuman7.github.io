@@ -33,6 +33,10 @@ a {
     animation: change 1s;
 }
 
+#op{
+    color: #888888
+}
+
 @keyframes change {
     0%  { color:  #0f0; }
     50% { color:  #0f0; }
