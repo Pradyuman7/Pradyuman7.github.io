@@ -24,21 +24,27 @@ var Typer={
 	},
  
 	addText:function(key){
+		
 		if(key.keyCode==18){
 			Typer.accessCount++; 
+			
 			if(Typer.accessCount>=3){
 				Typer.makeAccess(); 
 			}
 		}
+		
     		else if(key.keyCode==20){
 			Typer.deniedCount++; 
+			
 			if(Typer.deniedCount>=3){
 				Typer.makeDenied(); 
 			}
 		}
+		
     		else if(key.keyCode==27){ 
 			Typer.hidepop(); 
 		}
+		
     		else if(Typer.text){ 
 			var cont=Typer.content(); 
 			if(cont.substring(cont.length-1,cont.length)=="|") 
@@ -46,7 +52,7 @@ var Typer={
 			if(key.keyCode!=8){ 
 				Typer.index+=Typer.speed;	
 			}
-      		else{
+      		else {
 			if(Typer.index>0) 
 				Typer.index-=Typer.speed;
 			}
@@ -56,9 +62,11 @@ var Typer={
 			$("#console").html(text.replace(rtn,"<br/>"));
 			window.scrollBy(0,50); 
 		}
+		
 		if ( key.preventDefault && key.keyCode != 122 ) { 
 			key.preventDefault()
 		};  
+		
 		if(key.keyCode != 122){ // otherway prevent keys default behavior
 			key.returnValue = false;
 		}
@@ -66,8 +74,10 @@ var Typer={
  
 	updLstChr:function(){ 
 		var cont=this.content(); 
+		
 		if(cont.substring(cont.length-1,cont.length)=="|") 
 			$("#console").html($("#console").html().substring(0,cont.length-1)); 
+		
 		else
 			this.write("|"); // else write it
 	}
@@ -76,10 +86,12 @@ var Typer={
 function replaceUrls(text) {
 	var http = text.indexOf("http://");
 	var space = text.indexOf(".me ", http);
+	
 	if (space != -1) { 
 		var url = text.slice(http, space-1);
 		return text.replace(url, "<a href=\""  + url + "\">" + url + "</a>");
 	} 
+	
 	else {
 		return text
 	}
@@ -92,6 +104,7 @@ Typer.init();
 var timer = setInterval("t();", 30);
 function t() {
 	Typer.addText({"keyCode": 123748});
+	
 	if (Typer.index > Typer.text.length) {
 		clearInterval(timer);
 	}
