@@ -30,11 +30,11 @@ a {
 }
 
 #k {
-    animation: change 1s;
+    	animation: change 1s;
 }
 
 #op{
-    color: #888888
+    	color: #888888
 }
 
 @keyframes change {
