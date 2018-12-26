@@ -38,7 +38,7 @@ a {
 }
 
 @keyframes change {
-    0%  { color:  #0f0; }
-    50% { color:  #0f0; }
-    99% { color: black; }
+    	0%  { color:  #0f0; }
+    	50% { color:  #0f0; }
+    	99% { color: black; }
 }
