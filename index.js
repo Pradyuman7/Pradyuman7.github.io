@@ -80,10 +80,11 @@ function replaceUrls(text) {
 		var url = text.slice(http, space-1);
 		return text.replace(url, "<a href=\""  + url + "\">" + url + "</a>");
 	} 
-  else {
-	return text
+	else {
+		return text
+	}
 }
-}
+
 Typer.speed=3;
 Typer.file="pradyuman.txt";
 Typer.init();
