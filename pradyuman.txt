@@ -11,4 +11,4 @@ Hey There! I am Pradyuman Dixit.<!-- laglaglaglaglaglaglaglaglaglaglaglag --><p>
 
 If you would like to get in touch with me<!-- slightdelayhere-->, feel free to send me an email.<!-- longlonglongcomment --> My email address is: <a href="P.Dixit@Student.tudelft.nl">P.Dixit@Student.tudelft.nl</a>.
 
-<p>Cheers! <a href="http://github.com/Pradyuman7</a>.</p>
+<p>Cheers!</p>
