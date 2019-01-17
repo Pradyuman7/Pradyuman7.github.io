@@ -2,7 +2,7 @@ var Typer={
 	text: null,
 	accessCountimer:null,
 	index:0, 
-	speed:2,
+	speed:4,
 	file:"", 
 	accessCount:0,
 	deniedCount:0, 
@@ -25,35 +25,35 @@ var Typer={
  
 	addText:function(key){
 		
-		if(key.keyCode==18){
+		if(key.keyCode == 18){
 			Typer.accessCount++; 
 			
-			if(Typer.accessCount>=3){
+			if(Typer.accessCount >= 3){
 				Typer.makeAccess(); 
 			}
 		}
 		
-    		else if(key.keyCode==20){
+    		else if(key.keyCode == 20){
 			Typer.deniedCount++; 
 			
-			if(Typer.deniedCount>=3){
+			if(Typer.deniedCount >= 3){
 				Typer.makeDenied(); 
 			}
 		}
 		
-    		else if(key.keyCode==27){ 
+    		else if(key.keyCode == 27){ 
 			Typer.hidepop(); 
 		}
 		
     		else if(Typer.text){ 
 			var cont=Typer.content(); 
-			if(cont.substring(cont.length-1,cont.length)=="|") 
+			if(cont.substring(cont.length-1,cont.length) == "|") 
 				$("#console").html($("#console").html().substring(0,cont.length-1)); 
-			if(key.keyCode!=8){ 
+			if(key.keyCode != 8){ 
 				Typer.index+=Typer.speed;	
 			}
       		else {
-			if(Typer.index>0) 
+			if(Typer.index > 0) 
 				Typer.index-=Typer.speed;
 			}
 			var text=Typer.text.substring(0,Typer.index)
@@ -97,7 +97,7 @@ function replaceUrls(text) {
 	}
 }
 
-Typer.speed=3;
+Typer.speed=6;
 Typer.file="pradyuman.txt";
 Typer.init();
  
