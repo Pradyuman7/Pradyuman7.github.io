@@ -4,7 +4,7 @@ Learn about me in a Terminal-y way :grin:
 
 > P.S. I used jQuery in this, thinking that, this should make me like jQuery, but ....
 
-**[Visit the website](https://Pradyuman7.github.io)**
+****[Visit the website here.](https://Pradyuman7.github.io)**
 
 ***
 To Dos' in mind:
