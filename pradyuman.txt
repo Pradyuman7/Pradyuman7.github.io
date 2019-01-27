@@ -1,6 +1,6 @@
 <span id="a">pradyuman@dixit</span>:<span id="b">~</span><span id="c">$</span> cd Pradyuman/<!-- kjsdfhkjdhsfkjdshfkj -->About_Pradyuman
 <span id="a">pradyuman@dixit</span>:<span id="b">~</span><span id="c">$</span> cat <!-- kjsdfhkjdhsfkjdshfkj -->pradyuman.txt<br/><br/>
-My favorite code quote, "<span id="k">Code for Everyone</span>". <!-- sjkfhskjf -->
+My favorite code quote, "<span id="k">Build fast, Code big!</span>". <!-- sjkfhskjf -->
 
 Hey There! I am Pradyuman Dixit.<!-- laglaglaglaglaglaglaglaglaglaglaglag --><p>I am currently pursuing my Bachelor's in Computer Science and Engineering from Delft University of Technology (TU Delft).</p>
 <p>I love to code, solve interesting mathematics problems, and play football, and maybe singing too.</p> <!-- ksjdokhdfgdufdfkjhfkjahdfkjhafkjhakf -->
