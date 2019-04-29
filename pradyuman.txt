@@ -9,7 +9,7 @@ Hey There! I am Pradyuman Dixit.<!-- laglaglaglaglaglaglaglaglaglaglaglag --><p>
 <p> You can visit my other profiles, here: <br> <a href="https://www.linkedin.com/in/pradyuman-dixit/">LinkedIn</a> <br> <a href="https://github.com/Pradyuman7">GitHub</a> <br> <a href="https://medium.com/@pradyumandixit">Medium</a> and <br> <a href="https://www.hackerrank.com/pradyumandixit">HackerRank</a>.</p>
 I also am currently a Technical writer for Hacker Noon and AndroidPub, you can find my posts <a href ="https://hackernoon.com/@pradyumandixit">here </a> and <a href ="https://android.jlelse.eu/@pradyumandixit">here. </a>
 
-If you would like to get in touch with me<!-- slightdelayhere-->, feel free to send me an email.<!-- longlonglongcomment --> My email address is: <a href="P.Dixit@Student.tudelft.nl">P.Dixit@Student.tudelft.nl</a>.
+If you would like to get in touch with me<!-- slightdelayhere-->, feel free to send me an email at <a href="mailto: P.Dixit@Student.tudelft.nl">P.Dixit@Student.tudelft.nl</a>.
 
 <p>Cheers!</p>
 <span id="a">pradyuman@dixit</span>:<span id="b">~</span><span id="c">$</span> exit
